@@ -6,10 +6,8 @@ constructor(
     _router.events.subscribe((event) => {
         if (event instanceof NavigationStart) {
             this._appService.setLoadingState(true);
-            this._changeDetectorRef.markForCheck();
         } else if (event instanceof NavigationEnd) {
             this._appService.setLoadingState(false);
-            this._changeDetectorRef.markForCheck();
         }
     });
 }
