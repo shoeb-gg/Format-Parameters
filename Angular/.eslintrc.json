@@ -59,7 +59,10 @@
                 "object-shorthand": "off",
                 "quote-props": ["error", "consistent"],
                 "quotes": ["error", "single"],
-                "eqeqeq": "off"
+                "eqeqeq": "off",
+                "@typescript-eslint/no-unused-expressions": "off",
+                "max-len": "off"
+
             }
         },
         {
