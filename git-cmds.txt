@@ -1,0 +1,5 @@
+#######################################
+#### Push to multiple remote repos ####
+#######################################
+git remote set-url --add --push origin git://original/repo.git
+git remote set-url --add --push origin git://another/repo.git
