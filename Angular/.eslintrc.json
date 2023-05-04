@@ -48,13 +48,6 @@
                 "@typescript-eslint/naming-convention": "off",
                 "brace-style": ["off", "off"],
                 "import/order": "off",
-                "max-len": [
-                    "error",
-                    {
-                        "ignorePattern": "^import |^export | implements",
-                        "code": 180
-                    }
-                ],
                 "no-underscore-dangle": "off",
                 "object-shorthand": "off",
                 "quote-props": ["error", "consistent"],
@@ -62,7 +55,6 @@
                 "eqeqeq": "off",
                 "@typescript-eslint/no-unused-expressions": "off",
                 "max-len": "off"
-
             }
         },
         {
