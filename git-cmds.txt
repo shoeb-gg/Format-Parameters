@@ -1,4 +1,11 @@
 #######################################
+######## Git Name & Email init ########
+#######################################
+git config --global user.name "FIRST_NAME LAST_NAME"
+git config --global user.email "MY_NAME@example.com"
+
+
+#######################################
 #### Push to multiple remote repos ####
 #######################################
 git remote set-url --add --push origin git://original/repo.git
