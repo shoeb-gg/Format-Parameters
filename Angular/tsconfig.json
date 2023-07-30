@@ -1,3 +1,4 @@
 "compilerOptions": {
-        "strictPropertyInitialization": false
+        "strictPropertyInitialization": false,
+        "allowSyntheticDefaultImports": true
     },
