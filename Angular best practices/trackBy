@@ -1,0 +1,7 @@
+div *ngFor="let item of items; trackBy: trackByFn">{{ item.name }}</div>
+
+
+
+trackByFn(index, item) {
+  return item.id; // Use a unique identifier for efficient tracking.
+}
