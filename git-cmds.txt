@@ -5,8 +5,21 @@ git config --global user.name "FIRST_NAME LAST_NAME"
 git config --global user.email "MY_NAME@example.com"
 
 
+
+
 #######################################
 #### Push to multiple remote repos ####
 #######################################
 git remote set-url --add --push origin git://original/repo.git
 git remote set-url --add --push origin git://another/repo.git
+
+
+
+
+####################################################
+#### Force Pull without commiting local changes ####
+####################################################
+git fetch
+git stash
+git merge '@{u}'
+git stash pop
