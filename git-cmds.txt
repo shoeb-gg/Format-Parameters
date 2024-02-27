@@ -23,3 +23,9 @@ git fetch
 git stash
 git merge '@{u}'
 git stash pop
+
+
+####################################################
+## Undo Commits locally (after changing branches) ##
+####################################################
+git reset HEAD~1
