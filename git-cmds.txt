@@ -29,3 +29,10 @@ git stash pop
 ## Undo Commits locally (after changing branches) ##
 ####################################################
 git reset HEAD~1
+
+
+
+######################################################################################################
+## Cherry-Pick commit from one branch into another (Best for selective Merge or Rebase Alternative) ##
+######################################################################################################
+git cherry-pick 3431b840a4b3c60fad7a212a6ec2dd2b765fac7f
