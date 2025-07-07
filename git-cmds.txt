@@ -31,8 +31,13 @@ git stash pop
 git reset HEAD~1
 
 
-
 ######################################################################################################
 ## Cherry-Pick commit from one branch into another (Best for selective Merge or Rebase Alternative) ##
 ######################################################################################################
 git cherry-pick 3431b840a4b3c60fad7a212a6ec2dd2b765fac7f
+
+
+####################################################
+ Pull from private repository of organization email 
+####################################################
+git remote add origin https://shoeb-bizscout@github.com/BizScout/bizscout-monorepo.git
